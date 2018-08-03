@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Garden</title>
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="vendors/jquery-3.3.1.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron green">
+            <h1 class="display-4">Garden Plants</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="garden-form">
+                    <div class="form-group">
+                        <label for="plant-name">Plant Name:</label>
+                        <input type="text" class="form-control" id="plant-name" placeholder="e.g. Tomato">
+                    </div>
+                    <div class="form-group">
+                        <label for="plant-qty">Plant Quantity:</label>
+                        <input type="number" class="form-control" id="plant-qty" placeholder="e.g. 1">
+                    </div>
+                    <div class="form-group">
+                        <label for="plant-notes">Notes:</label>
+                        <input type="text" class="form-control" id="plant-notes" placeholder="e.g. needs more water">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <br />
+            </div>
+            <div class="col-md-6">
+                <!-- list of items in the garden goes here -->
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Plant Name</th>
+                            <th>Plant Quantity</th>
+                            <th>In Stock</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="plant-content">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

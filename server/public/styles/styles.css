@@ -1,0 +1,38 @@
+/* ELEMENT STYLES */
+
+body, html {
+    height: 100%;
+}
+
+table {
+    border: 1px solid #05668D;
+}
+
+thead {
+    background-color: #05668D;
+}
+
+th {
+    color: white;
+}
+
+tbody tr {
+    background-color: white;
+}
+
+/* CLASS STYLES */
+
+.green {
+    background-color: #00A896;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #05668D;
+}
+
+.container {
+    background-color: #F0F3BD;
+    padding-top: 15px;
+    height: 100%;
+}
